@@ -1,11 +1,12 @@
-import /vendor/etc/init/hw/init.nb1.camera.rc
-import /vendor/etc/init/hw/init.nb1.poweroff_charging.rc
+import /vendor/etc/init/hw/init.a1n.camera.rc
+import /vendor/etc/init/hw/init.a1n.poweroff_charging.rc
 
 on early-boot
     rm /persist/bluetooth/.bt_nv.bin
 
 on boot
     # Set fingerprint device permissions
+	setprop sys.fp.navigation.enable 1
     chown system system /dev/goodix_fp
     chmod 0644 /dev/goodix_fp
 
@@ -56,15 +57,30 @@ on post-fs-data
     mkdir /data/vendor/misc/touch 0770 system system
     mkdir /data/system/fingerprint 0770 system system
 
-service vendor.gx_fpd /vendor/bin/gx_fpd
-    class main
-    user system
-    group system
-
-service amp-init-sh /vendor/bin/init.nb1.smartamp_init.sh
+service amp-init-sh /vendor/bin/init.a1n.smartamp_init.sh
     class late_start
     user system
     oneshot
+	
+service fqcfingerprint /vendor/bin/fqcfingerprint
+    user system
+    oneshot
+    disabled
+
+on property:vendor.sys.fqcfingerprint=1
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=2
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=3
+    start fqcfingerprint
+
+on property:vendor.sys.fqcfingerprint=4
+    start fqcfingerprint
+
+on property:vendor.gxfp.version=*
+    setprop vendor.fp.firmware.version  Goodix-${vendor.gxfp.version}
 
 on property:sys.boot_completed=1
     restorecon_recursive /data/system/fingerprint/
