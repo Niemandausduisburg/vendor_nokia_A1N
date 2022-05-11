@@ -1,0 +1,42 @@
+#!/vendor/bin/sh
+
+vendor=$(/vendor/bin/getprop ro.boot.fp)
+echo "vendor = $vendor"
+parameter_1=$(/vendor/bin/getprop vendor.sys.fqcfingerprint)
+/vendor/bin/setprop vendor.sys.fqcfpret 0
+
+fingerprint_selftest() {
+	if [ "$vendor" = "goodix" ]; then
+		case "$parameter_1" in
+			"1")
+				echo "FPM selstest"
+				gf_cmd_test 1 > /dev/null
+				;;
+			"2")
+				echo "FPM touch test"
+				gf_cmd_test 2 > /dev/null
+				;;
+			"3")
+				echo "FPM SNR test"
+				gf_cmd_test 3 > /dev/null
+				;;
+			"4")
+				echo "FPM press test"
+				gf_cmd_test 4 > /dev/null
+				;;
+			*)
+				echo "just test"
+				gf_cmd_test > /dev/null
+				;;
+		esac
+	else
+		:
+	fi
+
+	ret=$?
+	echo "ret=$ret"
+	/vendor/bin/setprop vendor.sys.fqcfpret $ret
+	
+}
+
+fingerprint_selftest
