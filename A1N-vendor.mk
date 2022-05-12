@@ -639,6 +639,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -651,6 +652,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.mwqemadapter@1.0.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.2.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
     vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0.so \
@@ -967,6 +969,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -982,6 +985,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.factory@1.1.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.2.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccvndhal@1.0.so \
@@ -1113,6 +1117,9 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
 PRODUCT_COPY_FILES += \
+    vendor/nokia/A1N/proprietary/system/system/lib/vndk-29/libkeymaster_messages.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/vndk-29/libkeymaster_messages.so \
+    vendor/nokia/A1N/proprietary/system/system/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libkeymaster_messages.so \
+    vendor/nokia/A1N/proprietary/system/system/lib64/vndk-29/libkeymaster_messages.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/vndk-29/libkeymaster_messages.so \
     vendor/nokia/A1N/proprietary/vendor/bin/fqcfingerprint:$(TARGET_COPY_OUT_VENDOR)/bin/fqcfingerprint \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
@@ -1240,6 +1247,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
@@ -2464,6 +2472,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libfih_camera_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfih_camera_effect.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -2650,6 +2659,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
@@ -2667,6 +2677,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8998.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
