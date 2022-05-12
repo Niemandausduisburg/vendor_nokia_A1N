@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.1-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    android.frameworks.displayservice@1.0 \
+    android.frameworks.displayservice@1.0
 
 # Display (QTI)
 PRODUCT_PACKAGES += \
@@ -354,6 +354,10 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+    
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
