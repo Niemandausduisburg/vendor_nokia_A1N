@@ -1126,6 +1126,49 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/nokia/A1N/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/workspaceFile_cal.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/workspaceFile_cal.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/Fluid_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/msm8998-tavil-snd-card/Fluid_WCD9340_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/Liquid_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/msm8998-tavil-snd-card/Liquid_WCD9340_workspaceFile.qwsp \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -1134,8 +1177,71 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/msm8998-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-qvr-tavil-snd-card/QRD_QVR_WCD9340_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_workspaceFile.qwsp \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Bluetooth_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Codec_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_General_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Global_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Handset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Hdmi_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Headset_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_Speaker_cal.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8998-tavil-snd-card/QRD_WCD9340_workspaceFile.qwsp \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/1KHZ_20dB_48K_Samplerate.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/1KHZ_20dB_48K_Samplerate.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/data_1k_0dB_48k.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/data_1k_0dB_48k.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/data_1k_14dB_48k.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/data_1k_14dB_48k.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/device_sweep_-14db_silence_48k.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/device_sweep_-14db_silence_48k.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/device_sweep_0db_silence_48k.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/device_sweep_0db_silence_48k.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio/silence.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/silence.wav \
     vendor/nokia/A1N/proprietary/vendor/etc/audio/silence_48k.wav:$(TARGET_COPY_OUT_VENDOR)/etc/audio/silence_48k.wav \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_platform_info_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_i2s.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
+    vendor/nokia/A1N/proprietary/vendor/etc/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tavil.txt \
+    vendor/nokia/A1N/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
@@ -1187,8 +1293,22 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/s5k4e8_a1n_front_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4e8_a1n_front_chromatix.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_dtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_dtp.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_qvr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qvr.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_skuk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_skuk.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nokia/A1N/proprietary/vendor/firmware/TP_Firmware_JDI:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_JDI \
     vendor/nokia/A1N/proprietary/vendor/firmware/TP_Firmware_LG4946:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_LG4946 \
     vendor/nokia/A1N/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
