@@ -1845,6 +1845,20 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
+# Media
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_google_audio.xml
+vendor/etc/media_codecs_google_telephony.xml
+vendor/etc/media_codecs_google_video.xml
+vendor/etc/media_codecs_google_video_le.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_vendor.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_codecs_vendor_ozo.xml
+vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_V1_0.xml
+vendor/etc/media_profiles_vendor.xml
+
 # Sensors
 vendor/bin/sensors.qti
 vendor/lib/libsensor1.so
