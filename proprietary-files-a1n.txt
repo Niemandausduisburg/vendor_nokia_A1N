@@ -1775,7 +1775,6 @@ vendor/etc/init/hw/init.nb1.target.rc
 vendor/etc/init/hw/init.nb1.touch.rc
 vendor/etc/init/hw/init.nb1.wbg.rc
 vendor/etc/init/hw/init.nfc.nxp.rc
-vendor/etc/init/hw/init.qcom.diagtest.rc
 vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/init/hw/init.qcom.fs.rc
 vendor/etc/init/hw/init.qcom.ramdump.rc
@@ -1858,6 +1857,10 @@ vendor/etc/media_codecs_vendor_ozo.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_vendor.xml
+
+# Network
+vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
+vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Sensors
 vendor/bin/sensors.qti
