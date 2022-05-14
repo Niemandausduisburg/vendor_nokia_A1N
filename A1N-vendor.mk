@@ -1145,6 +1145,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/bin/init.qti.ims.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.ims.sh \
     vendor/nokia/A1N/proprietary/vendor/bin/init.qti.qseecomd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qseecomd.sh \
     vendor/nokia/A1N/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1280x720.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1600x1200.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1600x1200.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_2688x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_2688x1512.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_3200x2400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_3200x2400.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_3840x2160.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_4000x3000.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_4000x3000.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_1280x720.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_1600x1200.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_1600x1200.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_2688x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_2688x1512.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_3200x2400.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_3200x2400.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_3840x2160.ncf \
+    vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/rear/ISO200_4000x3000.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/rear/ISO200_4000x3000.ncf \
     vendor/nokia/A1N/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/Bluetooth_cal.acdb \
     vendor/nokia/A1N/proprietary/vendor/etc/acdbdata/A1N/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/A1N/General_cal.acdb \
