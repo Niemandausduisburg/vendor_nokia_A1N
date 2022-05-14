@@ -54,6 +54,7 @@ vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmpbase.so
+vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -1585,6 +1586,7 @@ vendor/firmware/TP_Firmware_LG4946
 vendor/bin/fqcfingerprint
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
+vendor/lib64/libgf_hal.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8998.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
@@ -1668,3 +1670,9 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensor_calibrate.so
+
+# Wifi
+vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so
+vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
+system/system/product/lib/vendor.qti.hardware.data.iwlan@1.0.so
+system/system/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
