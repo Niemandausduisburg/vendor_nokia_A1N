@@ -407,6 +407,20 @@ vendor/etc/camera/s5k3p3sm_chromatix.xml
 vendor/etc/camera/s5k3p8sp_chromatix.xml
 vendor/etc/camera/s5k4e8_a1n_front_chromatix.xml
 
+# Camera (ISO)
+vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf
+vendor/etc/A1N/ncf/aux/ISO200_1600x1200.ncf
+vendor/etc/A1N/ncf/aux/ISO200_2688x1512.ncf
+vendor/etc/A1N/ncf/aux/ISO200_3200x2400.ncf
+vendor/etc/A1N/ncf/aux/ISO200_3840x2160.ncf
+vendor/etc/A1N/ncf/aux/ISO200_4000x3000.ncf
+vendor/etc/A1N/ncf/rear/ISO200_1280x720.ncf
+vendor/etc/A1N/ncf/rear/ISO200_1600x1200.ncf
+vendor/etc/A1N/ncf/rear/ISO200_2688x1512.ncf
+vendor/etc/A1N/ncf/rear/ISO200_3200x2400.ncf
+vendor/etc/A1N/ncf/rear/ISO200_3840x2160.ncf
+vendor/etc/A1N/ncf/rear/ISO200_4000x3000.ncf
+
 # Camera (Chromatix)
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
