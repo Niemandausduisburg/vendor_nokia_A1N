@@ -448,19 +448,6 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.a1n.smartamp_init.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sh \
-    init.qcom.usb.sh \
-    init.qti.fm.sh \
-    init.qti.ims.sh \
-    init.a1n.camera.rc \
-    init.a1n.poweroff_charging.rc \
-    init.a1n.target.rc \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc \
 
