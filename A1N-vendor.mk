@@ -1344,7 +1344,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.touch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.touch.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.wbg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.wbg.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nfc.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.nxp.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.diagtest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.diagtest.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.fs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.fs.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.ramdump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.ramdump.rc \
@@ -1356,6 +1355,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_vendor_ozo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_ozo.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    vendor/nokia/A1N/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_dtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_dtp.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
@@ -2892,4 +2903,4 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
