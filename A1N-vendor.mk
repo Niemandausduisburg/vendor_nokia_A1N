@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/nokia/A1N/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/nokia/A1N/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
+    vendor/nokia/A1N/proprietary/system/system/lib/librtp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/librtp_jni.so \
+    vendor/nokia/A1N/proprietary/system/system/lib64/librtp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/librtp_jni.so \
     vendor/nokia/A1N/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/nokia/A1N/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/nokia/A1N/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -473,6 +475,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
@@ -802,6 +805,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
@@ -1117,28 +1121,12 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
 PRODUCT_COPY_FILES += \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice.so \
     vendor/nokia/A1N/proprietary/vendor/bin/fqcfingerprint:$(TARGET_COPY_OUT_VENDOR)/bin/fqcfingerprint \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.mdm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.mdm.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.nb1.lcm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.nb1.lcm.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.nb1.smartamp_init.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.nb1.smartamp_init.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.class_core.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.class_core.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.coex.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.coex.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.crashdata.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.crashdata.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.early_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.early_boot.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.efs.sync.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.efs.sync.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.sdio.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sdio.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qcom.usb.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.usb.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qti.can.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.can.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.fm.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qti.ims.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.ims.sh \
-    vendor/nokia/A1N/proprietary/vendor/bin/init.qti.qseecomd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qseecomd.sh \
     vendor/nokia/A1N/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1280x720.ncf \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1600x1200.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1600x1200.ncf \
@@ -1322,34 +1310,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.battery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.battery.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.camera.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.camera.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.dbg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.dbg.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.fingerprint.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.poweroff_charging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.poweroff_charging.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.a1n.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.a1n.target.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.fih.elabel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.elabel.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.fih.fqcaudio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fih.fqcaudio.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.msm.usb.configfs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.msm.usb.configfs.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.lcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.lcm.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.led.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.led.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.sd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.sd.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.smartamp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.smartamp.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.target.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.touch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.touch.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nb1.wbg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nb1.wbg.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.nfc.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.nxp.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.fs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.fs.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.ramdump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.ramdump.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.target.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.sku.A1C.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.A1C.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.sku.A1N.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.A1N.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.sku.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sku.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
-    vendor/nokia/A1N/proprietary/vendor/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
