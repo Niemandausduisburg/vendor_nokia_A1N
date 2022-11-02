@@ -1098,6 +1098,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/bin/fqcfingerprint:$(TARGET_COPY_OUT_VENDOR)/bin/fqcfingerprint \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
+        vendor/nokia/A1N/proprietary/vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti \
     vendor/nokia/A1N/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/nokia/A1N/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1280x720.ncf \
@@ -1268,6 +1269,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/etc/camera/s5k4e8_a1n_front_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4e8_a1n_front_chromatix.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/A1N/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
+    vendor/nokia/A1N/proprietary/vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc \
     vendor/nokia/A1N/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/nokia/A1N/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/nokia/A1N/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
@@ -2544,6 +2546,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_video_4k.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwcommon.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcryptfshwhidl.so \
+    vendor/nokia/A1N/proprietary/vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/nokia/A1N/proprietary/vendor/lib/libfih_camera_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfih_camera_effect.so \
@@ -2798,4 +2803,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
+    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libcryptfshwcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwcommon.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/libcryptfshwhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcryptfshwhidl.so \
+    vendor/nokia/A1N/proprietary/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cryptfshw@1.0.so
