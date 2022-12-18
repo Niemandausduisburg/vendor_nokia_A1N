@@ -1023,7 +1023,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqmi_cci \
     libqmi_common_so \
-    aptxals \
     WfdService \
     CACertService \
     CneApp \
